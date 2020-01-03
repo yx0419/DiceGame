@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(diceback.jpg);
+    background-image: url(/../diceImages/diceback.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -56,7 +56,7 @@ body {
     font-size: 47px;
     position: absolute;
     color: rgb(148, 72, 72);
-    top: -8px;
+    top: -13px;
     right: -18px;
 }
 
@@ -120,8 +120,6 @@ button {
 
 .winner {
     background-color: rgb(236, 253, 209);
-}
-
-.winner {
     color: rgb(231, 105, 66);
 }
+
