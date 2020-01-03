@@ -34,7 +34,7 @@ body {
 }
 
 .player-name {
-    font-size: 35px;
+    font-size: 26px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -62,18 +62,19 @@ body {
 
 .current-box {
     border-radius: 25px;
-    background-color: rgb(221, 73, 73);
+    background-color: rgb(233, 97, 97);
     color: #fff;
-    width: 50%;
+    width: 63%;
     margin: 0 auto;
     padding: 12px;
     text-align: center;
 }
 
 .current-label {
+    font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 8px;
+    font-size: 13px;
     color: rgb(0, 0, 0);
     font-family: fantasy;
 }
@@ -84,18 +85,19 @@ body {
 
 button {
     position: absolute;
-    width: 200px;
+    width: 170px;
     left: 50%;
     transform: translateX(-50%);
     color: #555;
     background: none;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 .btn-new { 
     top: 45px;
+    font-size: 16px;
     font-family: fantasy;
 }
 .btn-roll { 
@@ -108,7 +110,7 @@ button {
     font-family: fantasy;
 }
 
-.dice {
+.dice-img {
     position: absolute;
     left: 50%;
     top: 200px;
@@ -116,3 +118,10 @@ button {
     height: 100px;
 }
 
+.winner {
+    background-color: rgb(236, 253, 209);
+}
+
+.winner {
+    color: rgb(231, 105, 66);
+}
