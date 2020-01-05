@@ -7,7 +7,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     if (isGamePlaying) {//using state variable
         //1.display dice image with rolled random number
         var rolledNumber = Math.floor(Math.random() * 6) + 1;
-        document.querySelector('.dice-img').src = "/../diceImages/dice-" + rolledNumber + ".png";
+        document.querySelector('.dice-img').src = "diceImages/dice-" + rolledNumber + ".png";
         document.querySelector('.dice-img').style.display = 'block';
 
         //2.display updated current score. IF it is 1, current score become 0.
